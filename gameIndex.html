@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>Hello World!</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Hello World!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="css/gameStyle.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="js/gameMain.js" defer></script>
+  </head>
+  <body>
+    <div class="topContainer">
+      <img class="topImgs" src="https://cdn.glitch.global/da049abd-df12-418e-b340-95d803857dce/Screen%20Shot%202022-05-29%20at%204.26.26%20PM.png?v=1653856146363"/>
+      <h1 class="title">
+        "Lightsaber, Blaster, Force"<br>The Game!
+      </h1>
+      <img class="topImgs" src="https://cdn.glitch.global/da049abd-df12-418e-b340-95d803857dce/Screen%20Shot%202022-05-29%20at%204.28.40%20PM.png?v=1653856153958" />
+    </div>
+  
+    <h2 class="message">
+      Choose your weapon...
+    </h2>
+    <h4 class="clickMessage">
+      (by clicking an image below)
+    </h4>
+    <div class="logoContainer">
+      <img id="logo" src="https://cdn.glitch.global/da049abd-df12-418e-b340-95d803857dce/logo.png?v=1653875418440">
+    </div>
+    <div class="playerVsCompImg">
+      <img class="playerImg">
+      <span>VS</span>
+      <img class="computerImg">
+    </div>
+    <div class="scoresContainer">
+      <h2 class="boxA">Player Score: 0</h2>
+      <h2 class="boxB">Computer Score: 0</h2>
+    </div>
+    <div class ="imgContainer">
+      <a id="lightsaber"><img src="https://cdn.glitch.global/da049abd-df12-418e-b340-95d803857dce/lightsaber.png?v=1653848230012"></a>
+      <a id="blaster"><img src="https://cdn.glitch.global/da049abd-df12-418e-b340-95d803857dce/blaster.png?v=1653848221775"></a>
+      <a id="force"><img src="https://cdn.glitch.global/da049abd-df12-418e-b340-95d803857dce/force.png?v=1653848227055"></a>
+    </div>
+    <button type="button" id="reset">
+      Reset
+    </button>
+  </body>
+</html>
